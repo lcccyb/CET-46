@@ -1,4 +1,4 @@
-第一种方法
+
 
 首先访问这个网站 http://app.cet.edu.cn:7066/baas/app/setuser.do?method=UserVerify 打开肯定是出错的
 然后按F12打开开发者工具，选择console打开控制台，输出下面这段代码，回车
@@ -30,7 +30,3 @@ console.log(data["ks_bh"])
 
 
 
-这是第二种方法,,直接用网页查询
-网址如下:
-
-http://wechat.withcic.cn/DailyPush/Home/Cet/check?from=singlemessage&isappinstalled
