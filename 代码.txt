@@ -1,0 +1,31 @@
+首先访问这个网站 http://app.cet.edu.cn:7066/baas/app/setuser.do?method=UserVerify 打开肯定是出错的
+然后按F12打开开发者工具，选择console打开控制台，输出下面这段代码，回车
+
+
+(function(d, s) {
+d.body.appendChild(s = d.createElement('script')).src = 'http://code.jquery.com/jquery-1.9.1.min.js'
+})(document);
+
+
+然后再输入以下这段代码，回车
+
+
+var url = "http://app.cet.edu.cn:7066/baas/app/setuser.do?method=UserVerify";
+var ks_data = {
+"ks_xm": "这里写姓名",
+"ks_sfz": "这里写身份证号",
+"jb": "这里六级填2，四级填1"
+};
+var postdata = {
+"action": "",
+"params": JSON.stringify(ks_data)
+};
+$.post(url = url, data = postdata, callback = function(data) {
+data = $.parseJSON(data)
+console.log(data["ks_bh"])
+})
+
+
+
+
+
