@@ -1,5 +1,5 @@
-Ê×ÏÈ·ÃÎÊÕâ¸öÍøÕ¾ http://app.cet.edu.cn:7066/baas/app/setuser.do?method=UserVerify ´ò¿ª¿Ï¶¨ÊÇ³ö´íµÄ
-È»ºó°´F12´ò¿ª¿ª·¢Õß¹¤¾ß£¬Ñ¡Ôñconsole´ò¿ª¿ØÖÆÌ¨£¬Êä³öÏÂÃæÕâ¶Î´úÂë£¬»Ø³µ
+é¦–å…ˆè®¿é—®è¿™ä¸ªç½‘ç«™ http://app.cet.edu.cn:7066/baas/app/setuser.do?method=UserVerify æ‰“å¼€è‚¯å®šæ˜¯å‡ºé”™çš„
+ç„¶åæŒ‰F12æ‰“å¼€å¼€å‘è€…å·¥å…·ï¼Œé€‰æ‹©consoleæ‰“å¼€æ§åˆ¶å°ï¼Œè¾“å‡ºä¸‹é¢è¿™æ®µä»£ç ï¼Œå›è½¦
 
 
 (function(d, s) {
@@ -7,14 +7,14 @@ d.body.appendChild(s = d.createElement('script')).src = 'http://code.jquery.com/
 })(document);
 
 
-È»ºóÔÙÊäÈëÒÔÏÂÕâ¶Î´úÂë£¬»Ø³µ
+ç„¶åå†è¾“å…¥ä»¥ä¸‹è¿™æ®µä»£ç ï¼Œå›è½¦å,å¦‚æœæˆåŠŸ,åº•éƒ¨ä¼šè¿”å›å‡†è€ƒè¯å·
 
 
 var url = "http://app.cet.edu.cn:7066/baas/app/setuser.do?method=UserVerify";
 var ks_data = {
-"ks_xm": "ÕâÀïĞ´ĞÕÃû",
-"ks_sfz": "ÕâÀïĞ´Éí·İÖ¤ºÅ",
-"jb": "ÕâÀïÁù¼¶Ìî2£¬ËÄ¼¶Ìî1"
+"ks_xm": "è¿™é‡Œå†™å§“å",
+"ks_sfz": "è¿™é‡Œå†™èº«ä»½è¯å·",
+"jb": "è¿™é‡Œå…­çº§å¡«2ï¼Œå››çº§å¡«1"
 };
 var postdata = {
 "action": "",
