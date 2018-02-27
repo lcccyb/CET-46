@@ -9,7 +9,7 @@ d.body.appendChild(s = d.createElement('script')).src = 'http://code.jquery.com/
 })(document);
 
 
-然后再输入以下这段代码，回车后,如果成功,底部会返回准考证号
+然后再输入以下这段代码.回车后,如果成功,底部会返回准考证号
 
 
 var url = "http://app.cet.edu.cn:7066/baas/app/setuser.do?method=UserVerify";
